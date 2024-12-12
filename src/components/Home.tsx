@@ -1,8 +1,8 @@
 import React from 'react';
 import { Github, Linkedin, Mail } from 'lucide-react';
 import { motion } from 'framer-motion';
-import { 
-  SiReact, SiRubyonrails, SiJavascript, SiHtml5, 
+import {
+  SiReact, SiRubyonrails, SiJavascript, SiHtml5,
   SiCss3, SiGit, SiGithub, SiFigma, SiHeroku,
   SiRuby, SiPostgresql, SiLinux
 } from 'react-icons/si';
@@ -25,7 +25,7 @@ export function Home() {
 
   return (
     <div className="max-w-4xl mx-auto">
-      <motion.div 
+      <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         className="text-center mb-16"
@@ -50,7 +50,7 @@ export function Home() {
         </div>
       </motion.div>
 
-      <motion.div 
+      <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.2 }}
@@ -59,32 +59,46 @@ export function Home() {
         <h2 className="text-2xl font-bold text-gray-900 mb-6">About Me</h2>
         <div className="space-y-4 text-gray-600 leading-relaxed">
           <p>
-            I'm a graduate of IE University in Madrid, where I completed four years of study in Computer
-            Science and Artificial Intelligence. Before that, I pursued a year of Business Administration,
-            which provided a strong foundation in management and strategic thinking. My academic
-            journey has been defined by my passion for exploring the intersection of technology and
-            innovation, particularly in areas that foster leadership, inspire creativity, and drive impactful
-            solutions.
+          As a graduate of IE University in Madrid with a degree in Computer Science and Artificial
+          Intelligence, my academic journey has prepared me to excel in roles at the intersection of
+          technology and innovation. My coursework included a hands-on DevOps project, IE-Bank-App,
+          where I contributed to every layer of development—frontend, backend, and infrastructure—and
+          a comprehensive course on Data Structures and Algorithms that strengthened my Python
+          programming and problem-solving skills. These experiences have equipped me with a robust
+          technical foundation and a logical mindset tailored to addressing complex challenges.
+          </p>
+
+          <p>
+          In addition to my technical background, my experiences in leadership have shaped me into a
+          collaborative and goal-oriented professional. For two years, I served as a patrol leader in my
+          school’s Boy Scouts program, where I managed and guided a team of 12 young scouts. My
+          responsibilities included mentoring them to achieve their personal and collective goals, such as
+          becoming patrol leaders themselves. This experience infused in me the importance of clear
+          communication, adaptability, and fostering an environment where others can succeed—skills
+          that translate seamlessly to professional environments.
+          </p>
+
+          <p>
+          Beyond technical skills, I am passionate about leveraging technology to create impactful
+          solutions. My enthusiasm for sports fosters a strong team spirit and resilience—qualities I believe
+          are invaluable in a collaborative company environment. Moreover, I’m drawn to this internship
+          because it aligns with my passion for blending technology and innovation to address real-world
+          challenges, particularly in fostering community and enhancing user experiences through
+          technological solutions.
           </p>
           <p>
-            I'm both a software developer and a technology enthusiast with a passion for sports. Recently, I
-            completed Le Wagon's intensive two-month Full-Stack Web Development Bootcamp, where I
-            mastered tools and frameworks such as Ruby on Rails, Figma, Heroku, Git, GitHub, Linux,
-            HTML, CSS, JavaScript, SQL, and Ruby. For my final project, I developed <a href="https://www.play-pal.pro/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">PlayPal</a>, a sports app that allows users to book, find, or create sports
-            matches around them. This project showcases my ability to blend technical expertise with my
-            enthusiasm for fostering community through sports.
+          I am eager to apply my unique blend of technical knowledge, leadership skills, and passion for
+          innovation to your organization. I believe my background, which combines a strong foundation in
+          software development, a mindset for problem-solving, and an appreciation for team dynamics,
+          positions me as an ideal candidate for this role. This internship represents an opportunity not
+          only to contribute meaningfully to your team but also to grow by learning from your company’s
+          expertise and values.
           </p>
-          <p>
-            Beyond technical skills, I bring a problem-solving mindset and a collaborative approach. My
-            experience at IE University and Le Wagon has equipped me to work in fast-paced, dynamic
-            environments where adaptability is key. I am particularly interested in roles that allow me to
-            combine my technical knowledge with my passion for sports, leveraging technology to create
-            meaningful and impactful solutions.
-          </p>
+
         </div>
       </motion.div>
 
-      <motion.div 
+      <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.4 }}
